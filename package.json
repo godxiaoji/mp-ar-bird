@@ -1,0 +1,30 @@
+{
+  "name": "mp-ar-bird",
+  "version": "1.0.0",
+  "description": "基于tensorflow的AR脸部追踪小游戏",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godxiaoji/mp-ar-bird.git"
+  },
+  "keywords": [
+    "tensorflow",
+    "AR",
+    "wxgame"
+  ],
+  "author": "Travis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/godxiaoji/mp-ar-bird/issues"
+  },
+  "homepage": "https://github.com/godxiaoji/mp-ar-bird#readme",
+  "dependencies": {
+    "@tensorflow-models/posenet": "2.2.1",
+    "@tensorflow/tfjs-converter": "1.7.0",
+    "@tensorflow/tfjs-core": "1.7.0",
+    "fetch-wechat": "0.0.3"
+  }
+}

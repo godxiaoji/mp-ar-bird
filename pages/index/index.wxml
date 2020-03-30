@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="page-head">
+    <camera device-position="front" flash="off" binderror="error" frame-size="medium" class="camera">
+      <canvas id="canvas" canvas-id="canvas" class="canvas"></canvas>
+    </camera>
+  </view>
+  <view class="page-body">
+    <view class="deny-tips" wx:if="{{deny}}">
+      <view>你拒绝了相机权限，无法体验~</view>
+      <button bindtap="onAuthBtnClick">去打开授权</button>
+    </view>
+    <view class="tips" wx:if="{{playCount >= 3}}">玩了这么久，要不把好友也叫上~</view>
+  </view>
+  <!-- <canvas type="webgl" id="myCanvas" hidden="{{ true }}"></canvas> -->
+</view>
